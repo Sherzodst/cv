@@ -98,7 +98,10 @@
     <hr>
 
     <h2>Связаться со мной</h2>
-    <form action="//formspree.io/aragaen@gmail.com" method="post">
+  <!--  <form 
+    action="https://formspree.io/f/mvoykqqv"
+    method="POST"
+    >
         <label for="name">Ваше имя</label>
         <input type="text" id="name" placeholder="Начните вводить ваше имя...">
     </form>
@@ -106,11 +109,34 @@
         <label for="email">Ваше Email</label>
         <input type="text" id="email" placeholder="Ведите Email...">
         <br>
-        <label for="comment">Ваше сообщение</label>
+        <label for="message">Ваше сообщение</label>
         <br>
-        <textarea name="comment" id="test" cols="30" rows="10"></textarea>
+        <textarea name="message" id="test" cols="30" rows="10"></textarea>
         <br>
         <input type="submit" value="Связаться!">
-    </form>
+    </form> -->
+    <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mvoykqqv"
+  method="POST"
+>
+<label>
+    Ваше имя:
+    <input type="text" name="name" placeholder="Начните вводить ваше имя...">
+  </label>
+  <br>
+<label>
+    Ваше Email:
+    <input type="email" name="email" placeholder="Ведите Email...">
+  </label>
+  <br>
+  <label>
+    Ваше сообщение:<br>
+    <textarea name="message" id="test" cols="30" rows="10"></textarea>
+  </label>
+  <br>
+  <!-- your other form fields go here -->
+  <button type="submit">Связаться!</button>
+</form>
 </body>
 </html>
